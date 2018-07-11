@@ -24,7 +24,6 @@ function convertion(raw_data){
 }
 function get_regional_code(path, name_of_resturant, loc){
 	var temp = new Array();
-	alert(loc);
 	temp.push('<tr>\n');
 	temp.push('\t<td><a target="_blank" href="pdf/' + path + '">' + name_of_resturant + '</a></td>\n');
 	temp.push('\t<td>' + loc + '</td>\n');
