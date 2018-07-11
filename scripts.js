@@ -1,5 +1,5 @@
 var final_output = []
-
+console.log('JS loaded');
 
 function convertion(raw_data){
 	var raw_data = raw_data.value;
